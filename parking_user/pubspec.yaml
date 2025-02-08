@@ -1,0 +1,26 @@
+name: parking_user
+description: "Parking app for users"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  shared_preferences: ^2.3.5
+  flutter:
+    sdk: flutter
+  parking_shared_logic:
+    path: '../parking_shared_logic'
+  parking_shared_ui:
+    path: '../parking_shared_ui'
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
